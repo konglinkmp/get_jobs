@@ -37,5 +37,5 @@ merge_prs.log
 .DS_Store
 cookie.json
 .env
-
+chromedriver
 *.jpg

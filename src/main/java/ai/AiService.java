@@ -24,7 +24,7 @@ import java.util.concurrent.*;
 public class AiService {
 
     private static final Dotenv dotenv = Dotenv.load();
-    private static final String BASE_URL = dotenv.get("BASE_URL") + "/v1/chat/completions";
+    private static final String BASE_URL = dotenv.get("BASE_URL") + "/v1";
     private static final String API_KEY = dotenv.get("API_KEY");
     private static final String MODEL = dotenv.get("MODEL");
 
